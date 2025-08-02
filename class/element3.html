@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Element 3</title>
+    <style>
+        table,
+        tr,
+        td {
+            border: 1px solid;
+            background-color: lightcoral;
+        }
+
+        .a {
+            background-color: blue;
+            align-self: center;
+            width: 400px;
+        }
+        .b{
+            width: 200px;
+            background-color: aqua;
+        }
+        .c{
+            width: 100px; 
+            align-items: stretch;
+            background-color: brown;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td class="a"></td>
+            <td class="a"></td>
+            <td class="a"></td>
+        </tr>
+        <tr>
+            <td class="b" rowspan="2"></td>
+            <td class="b" colspan="3"></td>
+
+        </tr>
+        <tr>
+            <td class="b" colspan="3"></td>
+
+        </tr>
+        <tr>
+            <td class="c"></td>
+            <td class="c"></td>
+            <td class="c"></td>
+            <td class="c"></td>
+        </tr>
+
+
+    </table>
+</body>
+
+</html>

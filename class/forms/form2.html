@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Application Form</title>
+  <style>
+    body{
+        border-width: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Application Form</h1>
+  <form>
+    <p>
+      First Name:
+      <input type="text" name="firstName">
+      
+      Last Name:
+      <input type="text" name="lastName">
+    </p>
+
+    <p>
+      Date of Birth:
+      <input type="date" name="dob">
+      
+      Age:
+      <input type="number" name="age">
+    </p>
+
+    <p>
+      Gender:
+      <select name="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select>
+      
+      Email Address:
+      <input type="email" name="email" placeholder="Enter email address">
+    </p>
+
+    <p>
+      Positions Available:<br>
+      <input type="radio" name="position" value="junior"> Junior Developer
+      <input type="radio" name="position" value="mid"> Mid-level Developer
+      <input type="radio" name="position" value="senior"> Senior Developer
+    </p>
+
+    <p>
+      Programming Languages:<br>
+      <input type="checkbox" name="language" value="java"> Java
+      <input type="checkbox" name="language" value="javascript"> JavaScript
+      <input type="checkbox" name="language" value="python"> Python
+    </p>
+
+    <p>
+      Password:
+      <input type="password" name="password">
+      
+      Confirm Password:
+      <input type="password" name="confirmPassword">
+    </p>
+
+    <p>
+      <input type="submit" value="Submit">
+      <input type="reset" value="Reset">
+    </p>
+  </form>
+
+</body>
+</html>
